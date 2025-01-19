@@ -9,7 +9,7 @@ class Dockpack < Formula
         # TODO: add a sha, which gets updated but doesn't need manual updating
         sha256 "no_check"
     elsif OS.linux?
-        url "https://github.com/MaxwellFlitton/dockpack/releases/download/v/dockpack-#{version}x86_64-unknown-linux-gnu.tar.gz"
+        url "https://github.com/MaxwellFlitton/dockpack/releases/download/v/dockpack-#{version}-x86_64-unknown-linux-gnu.tar.gz"
         # TODO: add a sha, which gets updated but doesn't need manual updating
         sha256 "no_check"
     end
