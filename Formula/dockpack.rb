@@ -18,9 +18,5 @@ class Dockpack < Formula
   
     def install
       bin.install "dockpack"
-  
-      # bash_completion.install "complete/dockpack.bash"
-      # fish_completion.install "complete/dockpack.fish"
-      # zsh_completion.install "complete/_dockpack"
     end
   end
