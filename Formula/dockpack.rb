@@ -1,16 +1,15 @@
 class Dockpack < Formula
     # TODO: make manually updating this unnecessary
-    version 'v'
-    other_version 'v0.1.12'
+    version 'v0.1.12'
     desc "Unpack files from a Docker image into a directory, essentially enabling you to use Docker to distribute files."
     homepage "https://github.com/MaxwellFlitton/dockpack"
   
     if OS.mac?
-        url "https://github.com/Maxwellflitton/dockpack/releases/download/#{version}/dockpack-#{other_version}-x86_64-apple-darwin.tar.gz"
+        url "https://github.com/Maxwellflitton/dockpack/releases/download/v/dockpack-#{version}-x86_64-apple-darwin.tar.gz"
         # TODO: add a sha, which gets updated but doesn't need manual updating
         sha256 "no_check"
     elsif OS.linux?
-        url "https://github.com/MaxwellFlitton/dockpack/releases/download/#{version}/dockpack-#{other_version}x86_64-unknown-linux-gnu.tar.gz"
+        url "https://github.com/MaxwellFlitton/dockpack/releases/download/v/dockpack-#{other_version}x86_64-unknown-linux-gnu.tar.gz"
         # TODO: add a sha, which gets updated but doesn't need manual updating
         sha256 "no_check"
     end
