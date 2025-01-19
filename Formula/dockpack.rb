@@ -1,4 +1,4 @@
-class DockPack < Formula
+class Dockpack < Formula
     # TODO: make manually updating this unnecessary
     version 'v0.1.12'
     desc "Unpack files from a Docker image into a directory, essentially enabling you to use Docker to distribute files."
