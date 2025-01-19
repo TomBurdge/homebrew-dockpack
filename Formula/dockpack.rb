@@ -6,7 +6,7 @@ class Dockpack < Formula
   
     if OS.mac?
         url "https://github.com/Maxwellflitton/dockpack/releases/download/v/dockpack-#{version}-x86_64-apple-darwin.tar.gz"
-        sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        sha256 "9f0a05d1d3b86b00e43473863306c9c8652d41f47fe9a986155ba88a4f8a2218"
     elsif OS.linux?
         url "https://github.com/MaxwellFlitton/dockpack/releases/download/v/dockpack-#{version}-x86_64-unknown-linux-gnu.tar.gz"
         sha256 "ecbd4c56b36a5475579db257197d1f0a1893a3862cee83ff1b35f0b538d0f358"
