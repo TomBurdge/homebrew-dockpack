@@ -18,7 +18,6 @@ class Dockpack < Formula
   
     def install
       bin.install "dockpack"
-      man1.install "doc/rg.1"
   
       bash_completion.install "complete/dockpack.bash"
       fish_completion.install "complete/dockpack.fish"
