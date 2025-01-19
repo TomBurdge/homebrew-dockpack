@@ -11,7 +11,7 @@ class Dockpack < Formula
     elsif OS.linux?
         url "https://github.com/MaxwellFlitton/dockpack/releases/download/v/dockpack-#{version}-x86_64-unknown-linux-gnu.tar.gz"
         # TODO: add a sha, which gets updated but doesn't need manual updating
-        sha256 "no_check"
+        sha256 "ecbd4c56b36a5475579db257197d1f0a1893a3862cee83ff1b35f0b538d0f358"
     end
   
     conflicts_with "dockpack"
